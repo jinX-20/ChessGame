@@ -1,3 +1,13 @@
 const socket = io();
+const chess = new Chess();
+const boardElement = document.querySelector(".chessboard");
 
-socket.emit("churan");
+let draggedPiece = null;
+let sourceSquare = null;
+let playerRole = null;
+
+const renderBoard = () => {};
+
+const handleMove = () => {};
+
+const getPieceUnicode = () => {};
